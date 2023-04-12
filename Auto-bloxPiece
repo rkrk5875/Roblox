@@ -66,4 +66,7 @@ while task.wait() do
    task.wait(.5)
    Player:kick("Server Hop.")
    task.wait(.5)
-   end
+end
+if syn then 
+syn.queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/rkrk5875/Roblox/main/Auto-bloxPiece'))
+end
